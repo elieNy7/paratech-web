@@ -61,3 +61,7 @@ Chaque `git push` met le site à jour en une ou deux minutes.
    `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`,
    et un `CNAME` `www` vers `elieny7.github.io`.
 3. Dans GitHub → Settings → Pages, cocher « Enforce HTTPS » quand c'est proposé.
+
+## Icônes
+
+Icônes au trait : [Lucide](https://lucide.dev) (licence ISC). Logo WhatsApp : [Simple Icons](https://simpleicons.org) (CC0).
