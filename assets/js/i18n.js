@@ -122,6 +122,7 @@ window.PARATECH_I18N = {
     "common.discover": "Learn more",
     "common.notify": "Notify me",
     "common.soon": "Coming soon",
+    "common.early": "Early access",
     "common.free": "Free",
     "common.from": "From",
     "common.month": "/month"
