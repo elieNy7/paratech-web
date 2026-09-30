@@ -22,7 +22,7 @@ window.PARATECH_CONFIG = {
     projecton: "https://github.com/elieNy7/paratech-web/releases/download/project-on-v2.7.0/ProjectOn_2.7.0_Setup.exe",
     pgraphics: "https://github.com/elieNy7/paratech-web/releases/download/pgraphics-v0.12.0/Pgraphics_0.12.0_Setup.exe",
     paudio: "https://github.com/elieNy7/paratech-web/releases/download/paudio-v0.1.0/pAudio_0.1.0_Setup.exe",
-    meditationWindows: "https://github.com/elieNy7/paratech-web/releases/download/meditation-v3.5.3/Meditation_Setup_3.5.3.exe",
+    meditationWindows: "https://github.com/elieNy7/paratech-web/releases/download/meditation-v3.5.3/Meditation_Pro_Setup_v3.5.3.exe",
     meditationAndroid: "https://play.google.com/store/apps/details?id=com.paratech.meditation"
   },
 
