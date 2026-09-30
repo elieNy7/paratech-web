@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Pgraphics">
+  <rect x="40" y="40" width="432" height="432" rx="112" fill="#17232c"/>
+  <rect x="53" y="53" width="406" height="406" rx="100" fill="none" stroke="#34434c" stroke-width="4"/>
+  <!-- Le P dessine un cadre de production, l’iris ambre signe l’outil graphique. -->
+  <path fill="#f2f0e9" fill-rule="evenodd" d="M151 368V144c0-13 11-24 24-24h104c62 0 105 41 105 100 0 58-43 99-105 99h-61v49c0 15-12 27-27 27s-27-12-27-27Zm67-105h61c28 0 44-16 44-43s-16-43-44-43h-61v86Z"/>
+  <circle cx="302" cy="220" r="29" fill="#f28c45"/>
+  <circle cx="302" cy="220" r="11" fill="#17232c"/>
+  <g fill="none" stroke="#f28c45" stroke-linecap="round" stroke-width="10">
+    <path d="M121 164v-19h19"/>
+    <path d="M372 145h19v19"/>
+    <path d="M391 337v19h-19"/>
+  </g>
+</svg>

@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="fr" data-title-en="pAudio — Live mixing console | PARATECH">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>pAudio — Console de mixage live | PARATECH</title>
+  <meta name="description" content="pAudio : console de mixage live pour la régie. 2 à 32 pistes, effets VST3, mix-minus pour les invités à distance, sortie NDI, enregistrement multipiste. Bientôt disponible.">
+  <meta property="og:title" content="pAudio — Console de mixage live">
+  <meta property="og:image" content="assets/img/paudio/console.jpg">
+  <link rel="icon" href="assets/img/paudio-icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12,800;6..12,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a href="index.html" class="brand" aria-label="PARATECH — accueil"><img src="assets/img/paratech-logo.png" alt="PARATECH" width="120" height="66"></a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="index.html#logiciels" data-i18n="nav.software">Logiciels</a>
+      <a href="index.html#regie" data-i18n="nav.regie">Régie</a>
+      <a href="index.html#services" data-i18n="nav.services">Services</a>
+      <a href="index.html#apropos" data-i18n="nav.about">À propos</a>
+      <button class="lang-switch" type="button" aria-label="Changer de langue / Switch language"><span data-lang="fr">FR</span><span data-lang="en">EN</span></button>
+      <a href="index.html#contact" class="btn btn-ghost" data-i18n="nav.contact">Contactez-nous</a>
+    </nav>
+  </div>
+  <span class="scroll-progress" aria-hidden="true"></span>
+</header>
+
+<main>
+  <section class="p-hero">
+    <svg class="curves" viewBox="0 0 500 500" aria-hidden="true"><path d="M-40 300C60 140 220 80 420 120"/><path d="M-40 340C80 170 250 110 440 150"/><path d="M-40 380C100 200 280 140 460 180"/><path d="M-40 420C120 230 310 170 480 210"/></svg>
+    <div class="container">
+      <nav class="p-switch" aria-label="Nos logiciels">
+        <a href="pgraphics.html"><img src="assets/img/pgraphics-icon.svg" alt="">Pgraphics</a>
+        <a href="paudio.html" aria-current="page"><img src="assets/img/paudio-icon.svg" alt="">pAudio</a>
+        <a href="project-on.html"><img src="assets/img/projecton-icon.svg" alt="">Project-On</a>
+        <a href="meditation.html"><img src="assets/img/meditation-icon.png" alt="">Meditation</a>
+      </nav>
+      <div class="p-hero-grid">
+        <div>
+          <div class="p-title">
+            <img src="assets/img/paudio-icon.svg" alt="">
+            <div>
+              <h1>pAudio <span class="tag tag-soon" data-i18n="common.soon">Bientôt</span></h1>
+              <p class="p-tagline" data-i18n="p.pa.kicker">Console de mixage live</p>
+            </div>
+          </div>
+          <p class="lead" data-en="The control-room console that puts the DAW features you need for live work on one page: tracks, effects, buses, NDI and recording. If the window closes, the sound keeps going.">La console de régie qui réunit sur une seule page les fonctions de DAW utiles au direct : pistes, effets, bus, NDI et enregistrement. Si la fenêtre se ferme, le son continue.</p>
+          <ul class="badges">
+            <li>ASIO · WASAPI</li><li data-en="2 to 32 tracks">2 à 32 pistes</li><li>VST3</li><li>NDI</li><li>MIDI · OSC</li>
+          </ul>
+          <div class="hero-actions">
+            <a class="btn btn-accent" data-notify href="#" data-en="Notify me on release">Me prévenir de la sortie</a>
+            <a class="btn btn-ghost-light" href="#fonctions" data-en="See the features">Voir les fonctions</a>
+          </div>
+          <p class="price-tag"><b data-en="Free">Gratuit</b><span data-en="on release · like all our software">à sa sortie · comme tous nos logiciels</span></p>
+        </div>
+        <div class="p-visual">
+          <div class="p-frame">
+            <div class="p-frame-bar"><i></i><i></i><i></i><span>pAudio — Console</span></div>
+            <img src="assets/img/paudio/console.jpg" alt="Console pAudio : 12 pistes avec gain, inserts, pan, solo, mute, mix-minus, vumètres, bus Programme et Mix-minus" data-zoom width="1600" height="900">
+          </div>
+          <span class="p-glow" aria-hidden="true" style="background:#54E2D0"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="stats">
+      <div class="stat"><b>2–32</b><span data-en="tracks from your audio interface or USB console">pistes depuis votre interface audio ou console USB</span></div>
+      <div class="stat"><b>VST3</b><span data-en="effects on every track and on the program bus">effets sur chaque piste et sur le bus Programme</span></div>
+      <div class="stat"><b>NDI</b><span data-en="one source per bus, plus a multitrack source">une source par bus, plus une source multipiste</span></div>
+      <div class="stat"><b>WAV</b><span data-en="one file per track for editing">un fichier par piste pour le montage</span></div>
+    </div>
+  </div>
+
+  <section class="section" id="fonctions">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow" data-en="Features">Fonctions</p>
+        <h2 data-en="A real console, built for live">Une vraie console, pensée pour le direct</h2>
+        <p class="section-sub" data-en="Simple like Pgraphics: one console page, clear states, outputs ready for streaming.">Simple comme Pgraphics : une seule page console, des états clairs, des sorties prêtes pour le streaming.</p>
+      </div>
+      <div class="feat-grid">
+        <article class="feat">
+          <div class="svc-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 4v16M12 4v16M18 4v16"/><rect x="4" y="12" width="4" height="3" rx="1"/><rect x="10" y="7" width="4" height="3" rx="1"/><rect x="16" y="14" width="4" height="3" rx="1"/></svg></div>
+          <h3 data-en="Complete channel strip">Tranche complète</h3>
+          <p data-en="Gain, VST3 inserts, pan, mute, solo, sends and meter on every track.">Gain, inserts VST3, panoramique, mute, solo, envois et vumètre sur chaque piste.</p>
+        </article>
+        <article class="feat">
+          <div class="svc-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 20a6 6 0 0 1 12 0M17 8h4M19 6v4"/></svg></div>
+          <h3 data-en="Mix-minus for remote guests">Mix-minus pour les invités</h3>
+          <p data-en="Your remote guest hears everything except their own voice: no echo on Zoom or WhatsApp calls.">L'invité à distance entend tout sauf sa propre voix : plus d'écho sur Zoom ou un appel WhatsApp.</p>
+        </article>
+        <article class="feat">
+          <div class="svc-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16M8 4v4M16 10v4M11 16v4"/></svg></div>
+          <h3 data-en="Buses and matrices">Bus et matrices</h3>
+          <p data-en="Program, mix-minus, control-room monitor, and matrices to feed an overflow room.">Programme, mix-minus, retour régie, et des matrices pour alimenter une salle annexe.</p>
+        </article>
+        <article class="feat">
+          <div class="svc-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12a7 7 0 0 1 14 0M8 12a4 4 0 0 1 8 0"/><circle cx="12" cy="12" r="1.5"/><path d="M12 14v6"/></svg></div>
+          <h3 data-en="NDI outputs">Sorties NDI</h3>
+          <p data-en="Send the program to vMix, OBS or Zoom over the network, with no extra cable.">Envoyez le programme vers vMix, OBS ou Zoom par le réseau, sans câble de plus.</p>
+        </article>
+        <article class="feat">
+          <div class="svc-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/></svg></div>
+          <h3 data-en="Multitrack recording">Enregistrement multipiste</h3>
+          <p data-en="One WAV file per track, started by the operator, for clean editing and replays.">Un fichier WAV par piste, lancé par l'opérateur, pour un montage et une rediffusion propres.</p>
+        </article>
+        <article class="feat">
+          <div class="svc-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5h16v4H4zM4 11h16v4H4zM4 17h10v3H4z"/></svg></div>
+          <h3 data-en="Scenes and automation">Scènes et automation</h3>
+          <p data-en="Recall the whole console in one click, with a fade, or chain scenes on a timer.">Rappelez toute la console en un clic, en fondu, ou enchaînez des scènes à heure fixe.</p>
+        </article>
+        <article class="feat">
+          <div class="svc-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M7 10v4M12 10v4M17 10v4"/></svg></div>
+          <h3 data-en="Control surfaces">Surfaces de contrôle</h3>
+          <p data-en="MIDI faders with learn mode, tablet and Stream Deck through OSC and Companion.">Faders MIDI avec apprentissage, tablette et Stream Deck via OSC et Companion.</p>
+        </article>
+        <article class="feat">
+          <div class="svc-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h3 data-en="The sound never stops">Le son ne s'arrête jamais</h3>
+          <p data-en="The audio engine runs apart from the window: if the interface crashes, the mix goes on.">Le moteur audio tourne à part de la fenêtre : si l'interface plante, le mixage continue.</p>
+        </article>
+        <article class="feat">
+          <div class="svc-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg></div>
+          <h3 data-en="Pro drivers">Pilotes pro</h3>
+          <p data-en="ASIO first for low latency, WASAPI for any Windows sound card or USB console.">ASIO en priorité pour une faible latence, WASAPI pour toute carte son ou console USB.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-soft">
+    <div class="container">
+      <div class="section-head"><p class="eyebrow" data-en="Use cases">Pour quoi faire</p><h2 data-en="Made for the way you work">Fait pour votre façon de travailler</h2></div>
+      <div class="usecases">
+        <div class="usecase"><span class="uc-emoji" aria-hidden="true">⛪</span><b data-en="Church service">Culte</b><span data-en="Pastor's mic, choir, musicians: one mix for the room and one for the livestream.">Micro du pasteur, chorale, musiciens : un mix pour la salle, un autre pour le direct.</span></div>
+        <div class="usecase"><span class="uc-emoji" aria-hidden="true">🎙️</span><b data-en="Remote guest">Invité à distance</b><span data-en="Bring a Zoom call into the console, without echo thanks to mix-minus.">Faites entrer un appel Zoom dans la console, sans écho grâce au mix-minus.</span></div>
+        <div class="usecase"><span class="uc-emoji" aria-hidden="true">🏛️</span><b data-en="Overflow room">Salle annexe</b><span data-en="A dedicated matrix sends the right sound to a second room.">Une matrice dédiée envoie le bon son vers une deuxième salle.</span></div>
+        <div class="usecase"><span class="uc-emoji" aria-hidden="true">🎬</span><b data-en="Recording">Enregistrement</b><span data-en="Every track on its own file to fix and edit after the event.">Chaque piste dans son fichier pour corriger et monter après l'événement.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head"><p class="eyebrow" data-en="Progress">Avancement</p><h2 data-en="Where pAudio stands">Où en est pAudio</h2><p class="section-sub" data-en="pAudio is in development. Write to us on WhatsApp to be told as soon as it is out.">pAudio est en développement. Écrivez-nous sur WhatsApp pour être prévenu dès sa sortie.</p></div>
+      <ol class="roadmap">
+        <li class="done"><b data-en="Console and audio engine">Console et moteur audio</b><span data-en="Tracks, gain, effects, pan, solo, mute, metering.">Pistes, gain, effets, pan, solo, mute, vumètres.</span></li>
+        <li class="done"><b data-en="Buses, NDI, recording, scenes, surfaces">Bus, NDI, enregistrement, scènes, surfaces</b><span data-en="The prototype already has them; they are being tested.">Le prototype les a déjà ; ils sont en test.</span></li>
+        <li class="now"><b data-en="Field testing">Tests en conditions réelles</b><span data-en="In church services and events, with real audio interfaces.">Pendant des cultes et des événements, avec de vraies interfaces audio.</span></li>
+        <li><b data-en="pAudio virtual cables">Câbles virtuels pAudio</b><span data-en="Program and mix-minus seen as microphones by any software.">Programme et mix-minus vus comme des micros par n'importe quel logiciel.</span></li>
+        <li><b data-en="Version 1.0">Version 1.0</b><span data-en="Windows installer, free like all our software.">Installateur Windows, gratuit comme tous nos logiciels.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section section-soft">
+    <div class="container">
+      <div class="section-head"><p class="eyebrow" data-en="Specifications">Caractéristiques</p><h2 data-en="Technical details">Fiche technique</h2></div>
+      <dl class="specs">
+        <div class="spec"><dt data-en="System">Système</dt><dd data-en="Windows 10 or 11, 64-bit">Windows 10 ou 11, 64 bits</dd></div>
+        <div class="spec"><dt data-en="Drivers">Pilotes</dt><dd>ASIO, WASAPI</dd></div>
+        <div class="spec"><dt data-en="Tracks">Pistes</dt><dd data-en="2 to 32">2 à 32</dd></div>
+        <div class="spec"><dt data-en="Effects">Effets</dt><dd data-en="VST3 plug-ins">Plug-ins VST3</dd></div>
+        <div class="spec"><dt data-en="Outputs">Sorties</dt><dd data-en="Program, mix-minus, monitor, matrices, NDI">Programme, mix-minus, retour régie, matrices, NDI</dd></div>
+        <div class="spec"><dt data-en="Recording">Enregistrement</dt><dd data-en="WAV, one file per track">WAV, un fichier par piste</dd></div>
+        <div class="spec"><dt data-en="Control">Contrôle</dt><dd data-en="MIDI, OSC, Stream Deck (Companion)">MIDI, OSC, Stream Deck (Companion)</dd></div>
+        <div class="spec"><dt data-en="Price">Prix</dt><dd data-en="Free">Gratuit</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <div class="ad-slot" data-ad="product"></div>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head"><p class="eyebrow">FAQ</p><h2 data-en="Common questions">Questions fréquentes</h2></div>
+      <div class="faq">
+        <details><summary data-en="When will pAudio be available?">Quand pAudio sera-t-il disponible ?</summary><p data-en="As soon as field testing is finished. Write to us on WhatsApp and we will tell you first.">Dès la fin des tests en conditions réelles. Écrivez-nous sur WhatsApp : vous serez prévenu en premier.</p></details>
+        <details><summary data-en="What hardware do I need?">De quel matériel ai-je besoin ?</summary><p data-en="A Windows PC and an audio interface or digital console with a USB connection. An ASIO driver gives the best latency.">Un PC Windows et une interface audio ou une console numérique reliée en USB. Un pilote ASIO donne la meilleure latence.</p></details>
+        <details><summary data-en="Will pAudio be paid?">pAudio sera-t-il payant ?</summary><p data-en="No. Like Project-On, Pgraphics and Meditation, it will be free, with every feature.">Non. Comme Project-On, Pgraphics et Meditation, il sera gratuit, avec toutes ses fonctions.</p></details>
+        <details><summary data-en="Does it work on Mac?">Est-ce que ça marche sur Mac ?</summary><p data-en="Not for now: pAudio is built for Windows first.">Pas pour l'instant : pAudio est d'abord conçu pour Windows.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-soft">
+    <div class="container">
+      <div class="cta-band">
+        <div>
+          <h2 data-en="Be the first to mix with pAudio">Soyez parmi les premiers à mixer avec pAudio</h2>
+          <p data-en="Leave us a message on WhatsApp: we will tell you as soon as it is out. Meanwhile, Project-On and Pgraphics are ready.">Laissez-nous un message sur WhatsApp : nous vous prévenons dès sa sortie. En attendant, Project-On et Pgraphics sont prêts.</p>
+        </div>
+        <div class="hero-actions">
+          <a class="btn btn-accent" data-notify href="#" data-en="Notify me">Me prévenir</a>
+          <a class="btn btn-ghost-light" href="pgraphics.html" data-en="Discover Pgraphics">Découvrir Pgraphics</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="assets/img/paratech-logo.png" alt="PARATECH" width="90" height="50">
+      <p data-i18n="footer.about">Éditeur de logiciels à Kinshasa. Des logiciels de régie gratuits pour les églises, les médias et les événements.</p>
+      <div class="socials" data-social></div>
+    </div>
+    <div>
+      <h4 data-i18n="footer.software">Logiciels</h4>
+      <ul><li><a href="project-on.html">Project-On</a></li><li><a href="pgraphics.html">Pgraphics</a></li><li><a href="paudio.html">pAudio</a></li><li><a href="meditation.html">Meditation</a></li></ul>
+    </div>
+    <div>
+      <h4 data-i18n="footer.menu">Menu</h4>
+      <ul><li><a href="index.html#regie" data-i18n="nav.regie">Régie</a></li><li><a href="index.html#services" data-i18n="nav.services">Services</a></li><li><a href="index.html#apropos" data-i18n="nav.about">À propos</a></li><li><a href="confidentialite.html" data-i18n="footer.privacy">Confidentialité</a></li></ul>
+    </div>
+    <div>
+      <h4 data-i18n="footer.contact">Contact</h4>
+      <ul><li><a data-contact="whatsapp" href="#" target="_blank" rel="noopener"><span data-contact-text="phoneDisplay"></span></a></li><li><a data-contact="email" href="#"><span data-contact-text="email"></span></a></li><li><span data-contact-text="address"></span></li></ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© <span data-year></span> <span data-legal="company"></span>. <span data-i18n="footer.rights">Tous droits réservés.</span></p>
+    <p data-i18n="footer.ads">Nos logiciels sont gratuits grâce à la publicité sur ce site.</p>
+  </div>
+</footer>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

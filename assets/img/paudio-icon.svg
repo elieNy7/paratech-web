@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Icône pAudio</title>
+  <desc id="desc">Signal audio turquoise et bleu sur fond bleu nuit.</desc>
+  <defs>
+    <linearGradient id="signal" x1="91" y1="90" x2="421" y2="422" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#54E2D0"/>
+      <stop offset="1" stop-color="#4C8DFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="#111827"/>
+  <g fill="none" stroke="url(#signal)" stroke-linecap="round" stroke-width="35">
+    <path d="M94 211v90"/>
+    <path d="M157 164v184"/>
+    <path d="M220 123v266"/>
+    <path d="M283 174v164"/>
+    <path d="M346 216v80"/>
+  </g>
+  <path d="M371 256h29" stroke="#54E2D0" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="422" cy="256" r="16" fill="#54E2D0"/>
+</svg>
