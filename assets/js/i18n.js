@@ -31,7 +31,7 @@ window.PARATECH_I18N = {
     "p.po.kicker": "Projection for churches",
     "p.po.desc": "Bible, hymns, sermons and teachings on the screen, in OBS and on the switcher at the same time. One click prepares, F2 sends.",
     "p.pg.kicker": "Live graphics",
-    "p.pg.desc": "Lower thirds, names, verses, logos and scores animated over your video, sent live to OBS, vMix, HDMI or NDI, with no green screen.",
+    "p.pg.desc": "Lower thirds, names, logos and scores animated over your video, sent live to OBS, vMix, HDMI or NDI, with no green screen.",
     "p.pa.kicker": "Live mixing console",
     "p.pa.desc": "2 to 32 tracks, VST3 effects, mix-minus for remote guests, NDI output and multitrack recording. Free too, on release.",
     "p.me.kicker": "Bible study · Windows and Android",
