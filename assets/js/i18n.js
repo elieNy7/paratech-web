@@ -9,6 +9,7 @@ window.PARATECH_I18N = {
     "nav.regie": "Control room",
     "nav.services": "Services",
     "nav.about": "About",
+    "nav.media": "Media",
     "nav.contact": "Contact us",
 
     "hero.eyebrow": "Software publisher · Kinshasa",
@@ -87,6 +88,9 @@ window.PARATECH_I18N = {
     "svc.s5": "Training",
     "svc.s5d": "Church production, live streaming, office tools and artificial intelligence, for your teams.",
     "svc.s5p": "On quote",
+    "svc.s6": "PARATECH Media",
+    "svc.s6d": "Live streaming of your events, studio shows and video adverts.",
+    "svc.s6l": "See the offer",
     "svc.cta": "Request a quote",
 
     "aud.eyebrow": "Who it is for",
@@ -134,6 +138,7 @@ window.PARATECH_I18N = {
       soonDownload: "Bientôt disponible",
       msgNotify: "Bonjour PARATECH, je souhaite être prévenu de la sortie de pAudio.",
       msgQuote: "Bonjour PARATECH, je souhaite un devis pour vos services.",
+      msgQuoteMedia: "Bonjour PARATECH Média, je souhaite un devis pour filmer ou diffuser en direct mon événement. Date et lieu : ",
       adLabel: "Publicité",
       adPreview: "Emplacement publicitaire"
     },
@@ -141,6 +146,7 @@ window.PARATECH_I18N = {
       soonDownload: "Available soon",
       msgNotify: "Hello PARATECH, please notify me when pAudio is released.",
       msgQuote: "Hello PARATECH, I would like a quote for your services.",
+      msgQuoteMedia: "Hello PARATECH Media, I would like a quote to film or live stream my event. Date and place: ",
       adLabel: "Advertisement",
       adPreview: "Ad space"
     }
