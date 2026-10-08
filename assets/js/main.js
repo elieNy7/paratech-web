@@ -55,7 +55,7 @@
       el.href = waLink(t("msgNotify")); el.target = "_blank"; el.rel = "noopener";
     });
     $$("[data-quote]").forEach(function (el) {
-      el.href = waLink(t("msgQuote")); el.target = "_blank"; el.rel = "noopener";
+      el.href = waLink(t(el.dataset.quote === "media" ? "msgQuoteMedia" : "msgQuote")); el.target = "_blank"; el.rel = "noopener";
     });
   }
 

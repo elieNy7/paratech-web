@@ -2,7 +2,7 @@
 
 Site vitrine statique (HTML/CSS/JS, sans installation) qui présente les logiciels PARATECH,
 tous gratuits : Project-On, Pgraphics, pAudio (bientôt) et Meditation (Windows et Android),
-plus les services de l'entreprise. Français par défaut, anglais avec le bouton FR/EN.
+plus les services de l'entreprise, dont PARATECH Média (direct et studio). Français par défaut, anglais avec le bouton FR/EN.
 Le site est financé par la publicité (Google AdSense).
 
 ## Pages
@@ -13,6 +13,7 @@ Le site est financé par la publicité (Google AdSense).
 | `project-on.html` | Project-On : fonctions, captures, fiche technique, FAQ |
 | `pgraphics.html` | Pgraphics : fonctions, scénarios, animation, page Régie, fiche technique, FAQ |
 | `paudio.html` | pAudio : fonctions, cas d'usage, avancement, fiche technique, FAQ |
+| `media.html` | PARATECH Média : direct d'événements, studio, packs et prix, FAQ |
 | `meditation.html` | Meditation Windows et Android : fonctions, captures, fiche technique, FAQ |
 | `confidentialite.html` | Politique de confidentialité (obligatoire pour AdSense) |
 
