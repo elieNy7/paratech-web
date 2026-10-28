@@ -11,7 +11,7 @@ Le site est financé par la publicité (Google AdSense).
 |---|---|
 | `index.html` | Accueil : logiciels, régie, pourquoi PARATECH, étapes, services, contact |
 | `project-on.html` | Project-On : fonctions, captures, fiche technique, FAQ |
-| `pgraphics.html` | Pgraphics (version native 0.3.3) : fonctions, Régie, console audio, Édition, fiche technique, FAQ |
+| `pgraphics.html` | Pgraphics (version native 0.3.4) : fonctions, Régie, console audio, Édition, fiche technique, FAQ |
 | `confidentialite.html` | Politique de confidentialité (AdSense, et Pgraphics avec le compte Google : section `#pgraphics-google`) |
 | `conditions.html` | Conditions d'utilisation (dont YouTube) |
 
