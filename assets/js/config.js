@@ -9,7 +9,7 @@ window.PARATECH_CONFIG = {
   contact: {
     // Numéro WhatsApp au format international, chiffres seulement
     whatsapp: "243812436993",
-    email: "elieitnyembo@gmail.com",
+    email: "paratechsarl@gmail.com",
     phoneDisplay: "+243 812 436 993",
     address: "265 Av. Kabambare, Q. La Voix du Peuple, Lingwala — Kinshasa, RDC",
     facebook: "",
@@ -20,10 +20,7 @@ window.PARATECH_CONFIG = {
   // Liens de téléchargement. Un lien vide ("") affiche « Bientôt ».
   downloads: {
     projecton: "https://github.com/elieNy7/paratech-web/releases/download/project-on-v2.7.2/ProjectOn_2.7.2_Setup.exe",
-    pgraphics: "https://github.com/elieNy7/paratech-web/releases/download/pgraphics-v0.16.1/Pgraphics_0.16.1_Setup.exe",
-    paudio: "https://github.com/elieNy7/paratech-web/releases/download/paudio-v0.1.0/pAudio_0.1.0_Setup.exe",
-    meditationWindows: "https://github.com/elieNy7/paratech-web/releases/download/meditation-v3.5.3/Meditation_Pro_Setup_v3.5.3.exe",
-    meditationAndroid: "https://play.google.com/store/apps/details?id=com.paratech.meditation"
+    pgraphics: "https://github.com/elieNy7/paratech-web/releases/download/pgraphics-v0.3.0/Pgraphics-natif_0.3.0_Setup.exe"
   },
 
   /*

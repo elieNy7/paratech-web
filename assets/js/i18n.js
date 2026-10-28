@@ -13,7 +13,7 @@ window.PARATECH_I18N = {
 
     "hero.eyebrow": "Software publisher · Kinshasa",
     "hero.title": "Pro control-room software, <span class=\"accent\">100% free</span>.",
-    "hero.lead": "Projection, live graphics, sound and Bible study. Built in Kinshasa for churches, media and events, they work offline and survive power cuts.",
+    "hero.lead": "Projection, video control room, graphics, sound and live streaming. Built in Kinshasa for churches, media and events, they work offline and survive power cuts.",
     "hero.cta1": "Download our software",
     "hero.cta2": "Our services",
     "hero.f1": "programs",
@@ -30,19 +30,14 @@ window.PARATECH_I18N = {
     "cat.orbit": "for everyone",
     "p.po.kicker": "Projection for churches",
     "p.po.desc": "Bible, hymns, sermons and teachings on the screen, in your stream and on the switcher at the same time. One click prepares, F2 sends.",
-    "p.pg.kicker": "Live graphics",
-    "p.pg.desc": "Lower thirds, names, logos and scores animated over your video, recorded and streamed live, over HDMI or NDI, with no green screen.",
-    "p.pa.kicker": "Live mixing console",
-    "p.pa.desc": "2 to 32 tracks, VST3 effects, mix-minus for remote guests, NDI output and multitrack recording. Free too, on release.",
-    "p.me.kicker": "Bible study · Windows and Android",
-    "p.me.desc": "The Bible, sermons and books in one study library: global search, highlights and read-aloud, with no Internet.",
+    "p.pg.kicker": "Live production studio for churches and concerts",
+    "p.pg.desc": "Video control room, animated graphics, a professional sound console and YouTube live in one application: prepare, send to air, record and stream at the same time.",
 
     "eco.eyebrow": "A complete control room",
-    "eco.title": "Three programs, one live show",
-    "eco.sub": "Text, graphics and sound meet in your switcher, then go to the screen in the room and to your online streams.",
+    "eco.title": "Two programs, one live show",
+    "eco.sub": "Project-On's text comes into Pgraphics, which adds the cameras, graphics and sound, then sends the program to the screen in the room and to your online streams.",
     "eco.n1": "Bible, hymns, sermons",
-    "eco.n2": "Lower thirds, names, animated logos",
-    "eco.n3": "Microphones, music, guests",
+    "eco.n2": "Control room, graphics, sound, live",
     "eco.hub": "Your control room",
     "eco.o1": "Screen in the room",
     "eco.o1d": "Projector, TV, LED wall",
@@ -60,7 +55,7 @@ window.PARATECH_I18N = {
     "why.s1": "to pay: the software is free, with no limits",
     "why.s2": "outputs: screen, stream, HDMI and NDI",
     "why.s3": "Bibles included or to download in Project-On",
-    "why.s4": "searchable sermons in Meditation",
+    "why.s4": "sound presets for voice, choir and instruments in Pgraphics",
 
     "how.eyebrow": "How it works",
     "how.title": "Ready for the next service",
@@ -114,6 +109,7 @@ window.PARATECH_I18N = {
     "footer.menu": "Menu",
     "footer.contact": "Contact",
     "footer.privacy": "Privacy",
+    "footer.terms": "Terms of use",
     "footer.rights": "All rights reserved.",
     "footer.ads": "Our software is free thanks to advertising on this site.",
 
@@ -132,14 +128,14 @@ window.PARATECH_I18N = {
   dynamic: {
     fr: {
       soonDownload: "Bientôt disponible",
-      msgNotify: "Bonjour PARATECH, je souhaite être prévenu de la sortie de pAudio.",
+      msgNotify: "Bonjour PARATECH, je souhaite être prévenu de la sortie de ce logiciel.",
       msgQuote: "Bonjour PARATECH, je souhaite un devis pour vos services.",
       adLabel: "Publicité",
       adPreview: "Emplacement publicitaire"
     },
     en: {
       soonDownload: "Available soon",
-      msgNotify: "Hello PARATECH, please notify me when pAudio is released.",
+      msgNotify: "Hello PARATECH, please notify me when this software is released.",
       msgQuote: "Hello PARATECH, I would like a quote for your services.",
       adLabel: "Advertisement",
       adPreview: "Ad space"

@@ -1,7 +1,7 @@
 # Site PARATECH
 
 Site vitrine statique (HTML/CSS/JS, sans installation) qui présente les logiciels PARATECH,
-tous gratuits : Project-On, Pgraphics, pAudio (bientôt) et Meditation (Windows et Android),
+tous gratuits : Project-On et Pgraphics,
 plus les services de l'entreprise. Français par défaut, anglais avec le bouton FR/EN.
 Le site est financé par la publicité (Google AdSense).
 
@@ -11,12 +11,11 @@ Le site est financé par la publicité (Google AdSense).
 |---|---|
 | `index.html` | Accueil : logiciels, régie, pourquoi PARATECH, étapes, services, contact |
 | `project-on.html` | Project-On : fonctions, captures, fiche technique, FAQ |
-| `pgraphics.html` | Pgraphics : fonctions, scénarios, animation, page Régie, fiche technique, FAQ |
-| `paudio.html` | pAudio : fonctions, cas d'usage, avancement, fiche technique, FAQ |
-| `meditation.html` | Meditation Windows et Android : fonctions, captures, fiche technique, FAQ |
-| `confidentialite.html` | Politique de confidentialité (obligatoire pour AdSense) |
+| `pgraphics.html` | Pgraphics (version native 0.3.0) : fonctions, Régie, console audio, Édition, fiche technique, FAQ |
+| `confidentialite.html` | Politique de confidentialité (AdSense, et Pgraphics avec le compte Google : section `#pgraphics-google`) |
+| `conditions.html` | Conditions d'utilisation (dont YouTube) |
 
-Les captures sont dans `assets/img/<logiciel>/` : `pc-*.jpg` pour Windows, `android-*.jpg` pour le téléphone.
+Les captures sont dans `assets/img/<logiciel>/` (Pgraphics : `pg-*-030.jpg`, prises sur la version 0.3.0).
 Sur les pages produit, l'anglais est écrit à côté du français dans l'attribut `data-en`.
 
 ## Modifier le contenu

@@ -166,10 +166,8 @@ h1 .tag, h2 .tag { font-size: .68rem; position: relative; top: -6px; }
 .orbit::before { content: ""; position: absolute; inset: 14%; border-radius: 50%; background: radial-gradient(circle at 35% 30%, var(--navy-400), var(--navy-700) 70%); box-shadow: 0 30px 60px rgba(247, 160, 0,.3); }
 .orbit::after { content: ""; position: absolute; inset: 0; border-radius: 50%; border: 1.5px dashed var(--sky); animation: spin 40s linear infinite; }
 .orbit img { position: absolute; width: 58px; height: 58px; border-radius: 16px; background: #fff; padding: 6px; box-shadow: var(--shadow); z-index: 1; }
-.orbit img:nth-child(1) { top: -4%; left: 42%; }
+.orbit img:nth-child(1) { top: 40%; left: -6%; }
 .orbit img:nth-child(2) { top: 40%; right: -6%; }
-.orbit img:nth-child(3) { bottom: -4%; left: 42%; }
-.orbit img:nth-child(4) { top: 40%; left: -6%; }
 .orbit span { position: absolute; inset: 0; display: grid; place-content: center; text-align: center; color: #fff; font-weight: 900; font-size: 2.4rem; z-index: 1; line-height: 1.05; }
 .orbit span small { display: block; font-size: .85rem; font-weight: 700; opacity: .85; letter-spacing: .06em; text-transform: uppercase; }
 @keyframes spin { to { transform: rotate(360deg); } }
@@ -425,6 +423,8 @@ a.contact-row:hover { background: var(--sky-50); }
 .prose { max-width: 780px; margin: 0 auto; }
 .prose h2 { font-size: 1.4rem; margin-top: 2em; }
 .prose a { color: var(--navy-700); font-weight: 700; }
+.prose h3 { font-size: 1.1rem; margin-top: 1.6em; }
+.prose code { font-size: .88em; background: rgba(0, 0, 0, .06); padding: 1px 6px; border-radius: 4px; overflow-wrap: anywhere; }
 
 /* Lightbox */
 .lightbox { border: 0; padding: 0; background: transparent; max-width: min(1400px, 94vw); width: 100%; overflow: visible; }
