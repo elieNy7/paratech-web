@@ -19,7 +19,7 @@ window.PARATECH_CONFIG = {
 
   // Liens de téléchargement. Un lien vide ("") affiche « Bientôt ».
   downloads: {
-    projecton: "https://github.com/elieNy7/paratech-web/releases/download/project-on-v2.7.2/ProjectOn_2.7.2_Setup.exe",
+    projecton: "https://github.com/elieNy7/paratech-web/releases/download/project-on-v2.8.0/ProjectOn_2.8.0_Setup.exe",
     pgraphics: "https://github.com/elieNy7/paratech-web/releases/download/pgraphics-v0.3.5/Pgraphics-natif_0.3.5_Setup.exe"
   },
 
