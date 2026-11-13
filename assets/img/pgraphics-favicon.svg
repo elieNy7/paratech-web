@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Pgraphics">
+  <rect width="512" height="512" rx="112" fill="#111A2E"/>
+  <path fill="#F5F7FA" d="M84 444V152H242A104 104 0 1 1 242 360H172V444Z"/>
+  <circle cx="242" cy="256" r="50" fill="#FF3B30"/>
+  <path fill="none" stroke="#F3B64A" stroke-width="56" stroke-linecap="round" d="M291.1 84.9A178 178 0 0 1 414.7 212.9"/>
+</svg>
