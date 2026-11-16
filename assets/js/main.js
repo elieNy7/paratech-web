@@ -19,12 +19,15 @@
     return el.dataset.en || I.en[el.dataset.i18n] || originals[el.dataset.i18nId];
   }
   var originalTitle = document.title;
+  var metaDescription = $('meta[name="description"]');
+  var originalDescription = metaDescription && metaDescription.content;
 
   function setLang(next) {
     lang = next === "en" ? "en" : "fr";
     document.documentElement.lang = lang;
     $$("[data-i18n], [data-en]").forEach(function (el) { el.innerHTML = translated(el); });
     document.title = (lang === "en" && document.documentElement.dataset.titleEn) || originalTitle;
+    if (metaDescription) metaDescription.content = (lang === "en" && document.documentElement.dataset.descriptionEn) || originalDescription;
     fillDynamic();
     splitWords();
     try { localStorage.setItem("paratech-lang", lang); } catch (e) { /* stockage indisponible */ }
@@ -34,7 +37,9 @@
     var q = new URLSearchParams(location.search).get("lang");
     if (q) return q;
     try { var saved = localStorage.getItem("paratech-lang"); if (saved) return saved; } catch (e) { /* ignore */ }
-    return (navigator.language || "fr").toLowerCase().indexOf("fr") === 0 ? "fr" : "en";
+    // Sans choix du visiteur, le français : le robot de Google lit les pages avec
+    // un navigateur réglé en anglais, et doit indexer la version française.
+    return "fr";
   }
   $$(".lang-switch").forEach(function (b) { b.addEventListener("click", function () { setLang(lang === "fr" ? "en" : "fr"); }); });
 
