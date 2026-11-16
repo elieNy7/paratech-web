@@ -54,12 +54,30 @@ Puis ouvrir http://localhost:8765
 Le site est publié depuis le dépôt `elieNy7/paratech-web` (branche `main`, dossier racine).
 Chaque `git push` met le site à jour en une ou deux minutes.
 
-**Brancher le domaine** (ex. `paratech.africa`) :
-1. Créer un fichier `CNAME` à la racine contenant seulement le domaine, puis pousser.
-2. Chez le vendeur du domaine, ajouter 4 enregistrements `A` vers
-   `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`,
-   et un `CNAME` `www` vers `elieny7.github.io`.
-3. Dans GitHub → Settings → Pages, cocher « Enforce HTTPS » quand c'est proposé.
+**Domaine : https://paratechsarl.com** (acheté chez Cloudflare, branché le 2026-11-16).
+- Le fichier `CNAME` à la racine contient `paratechsarl.com` : ne pas le supprimer.
+- DNS chez Cloudflare (paratechsarl.com ▸ DNS ▸ Records) : 4 enregistrements `A` `@` vers
+  `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`,
+  et un `CNAME` `www` vers `elieny7.github.io`, tous en **DNS only** (nuage gris) : GitHub
+  fournit lui-même le certificat HTTPS. Les enregistrements `MX`/`TXT` servent au routage
+  des e-mails de Cloudflare.
+- L'ancienne adresse https://elieny7.github.io/paratech-web/ renvoie vers le domaine.
+
+## Référencement (Google)
+
+- Le site est déclaré dans Google Search Console (propriété de domaine `paratechsarl.com`,
+  vérifiée par un enregistrement `TXT` `google-site-verification` chez Cloudflare : ne pas
+  le supprimer). Le plan du site `sitemap.xml` y est envoyé.
+- Chaque page a son titre et sa description (≈ 60 et 155 caractères, ce que Google affiche),
+  une adresse canonique `https://paratechsarl.com/…` et des données structurées
+  (`<script type="application/ld+json">`) : entreprise sur l'accueil, logiciel sur les
+  pages produit.
+- **À chaque nouvelle version** : changer aussi `softwareVersion` dans les données
+  structurées de `pgraphics.html` / `project-on.html`, et la date `lastmod` de la page
+  dans `sitemap.xml`. Pour une nouvelle page : l'ajouter à `sitemap.xml`, avec sa
+  balise `canonical`.
+- Sans choix du visiteur (bouton FR/EN ou `?lang=en`), le site s'affiche en français :
+  c'est la version que Google indexe.
 
 ## Icônes
 
